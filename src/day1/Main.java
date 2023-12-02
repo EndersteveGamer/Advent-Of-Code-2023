@@ -24,8 +24,7 @@ public class Main {
     ));
 
     public static void main(String[] args) throws FileNotFoundException {
-        File file = new File("C:\\Users\\theop\\OneDrive\\Bureau\\Pour coder" +
-                "\\Fichiers Java\\Advent Of Code\\src\\day1\\input.txt");
+        File file = new File("src/day1/input.txt");
         Scanner sc = new Scanner(file);
         int sum = 0;
         while (sc.hasNextLine()) {
